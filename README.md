@@ -2,10 +2,24 @@
  Test hardware
 
 Autor: Jordi Rodriguez  
-Usando: Arduino Shield Sensor v.5.0 + ArduinoBlocks  
-Preparado para Bluetooth en RX/TX
+Practica de programación con bloques para vehículos con sensores
 
-Material:
+
+*** Material utilizado ***
+
+- http://www.arduinoblocks.com/web/
+- Arduino Shield Sensor v.5.0
+- HC-SR04 = Sensor ultrasonido de distancia
+- TCRT5000 = Sensor infrarrojo de proximidad (2x)
+- LM393 = Sensor fotolumínico
+- LCD I2C = Pantalla lcd
+- Led blanco + R100Ω (2x)
+- Led rojo + R220Ω (2x)
+- Buzzer activo + R100Ω  
+- L298N = Controlador de motores
+  
+
+*** Pines de conexion ***
 
 A0 = Sensor ultrasonido-Echo (HC-SR04)  
 A1 = Sensor ultrasonido-Trigger (HC-SR04)  
@@ -16,15 +30,15 @@ A5 = I2C LCD (SCL)
 
 D0 = (RX)  
 D1 = (TX)  
-D2 = Led blanco derecho + R100Ω  
-D3-= Led rojo derecho + R220Ω  
-D4 = Sensor línea derecha (TCRT5000)  
-D5-= ENB motor izquierdo (L298N)  
-D6-= ENA motor derecho (L298N)  
-D7 = IN1 motor derecho (L298N)  
-D8 = IN2 motor derecho (L298N)  
-D9-= IN3 motor izquierdo (L298N)  
-D10-= IN4 motor izquierdo (L298N)  
-D11-= Buzzer + R100Ω  
-D12 = Led rojo izquierdo + R220Ω  
-D13 = Led blanco izquierdo + R100Ω  
+D2 = Led blanco derecho
+D3-= Led rojo derecho
+D4 = Sensor línea derecha 
+D5-= ENB motor izquierdo
+D6-= ENA motor derecho
+D7 = IN1 motor derecho
+D8 = IN2 motor derecho
+D9-= IN3 motor izquierdo
+D10-= IN4 motor izquierdo
+D11-= Buzzer
+D12 = Led rojo izquierdo 
+D13 = Led blanco izquierdo
