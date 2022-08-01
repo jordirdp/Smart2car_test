@@ -1,15 +1,19 @@
 # Smart2car_test
 
-Autor: Jordi Rodriguez  
-Práctica de programación visual con bloques para vehículos con sensores  
-El código simplemente realiza un test del hardware instalado
+Autor: Jordi Rodríguez  
+Práctica de programación visual con bloques en Arduino  
+Crearemos un vehículo de 2 ruedas con el material especificado  
+Para la programación usaremos la plataforma ArduinoBlocks:  
+
+http://www.arduinoblocks.com/web/
+
+Este código simplemente realiza un test del hardware instalado
   
 ![Imagen Smart2car acabado](Smart2car_final.jpeg)  
 
 
 ## Material utilizado
 
-- http://www.arduinoblocks.com/web/
 - Arduino Shield Sensor v.5.0
 - HC-SR04 = Sensor ultrasonido de distancia
 - TCRT5000 = Sensor infrarrojo de proximidad (2x)
