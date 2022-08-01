@@ -1,11 +1,13 @@
 # Smart2car_test
- Test hardware
 
 Autor: Jordi Rodriguez  
-Practica de programación con bloques para vehículos con sensores
+Práctica de programación visual con bloques para vehículos con sensores  
+El código simplemente realiza un test del hardware instalado
+  
+![Imagen Smart2car acabado](Smart2car_final.jpeg)  
 
 
-*** Material utilizado ***
+## Material utilizado
 
 - http://www.arduinoblocks.com/web/
 - Arduino Shield Sensor v.5.0
@@ -20,7 +22,7 @@ Practica de programación con bloques para vehículos con sensores
 - Motores Arduino (2x)
   
 
-*** Pines de conexion ***
+## Pines de conexion
 
 A0 = Sensor ultrasonido-Echo (HC-SR04)  
 A1 = Sensor ultrasonido-Trigger (HC-SR04)  
