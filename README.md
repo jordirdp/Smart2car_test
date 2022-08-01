@@ -32,7 +32,7 @@ A0 = Sensor ultrasonido-Echo (HC-SR04)
 A1 = Sensor ultrasonido-Trigger (HC-SR04)  
 A2 = Sensor línea izquierda (TCRT5000)  
 A3 = Fotosensor (LM393)  
-A4 = I2C LCD (SCA)  
+A4 = I2C LCD (SDA)  
 A5 = I2C LCD (SCL)  
 
 D0 = (RX)  
