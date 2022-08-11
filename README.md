@@ -1,6 +1,7 @@
 # Smart2car_test
 
 Autor: Jordi Rodríguez  
+
 Práctica de programación visual con bloques en Arduino  
 Crearemos un vehículo de 2 ruedas con el material especificado  
 Para la programación usaremos la plataforma ArduinoBlocks:  
@@ -10,8 +11,8 @@ http://www.arduinoblocks.com/web/
 Este código simplemente realiza un test del hardware instalado
   
 ![Imagen Smart2car acabado](Smart2car_final.jpeg)  
-
-
+  
+  
 ## Material utilizado
 
 - Arduino Shield Sensor v.5.0
