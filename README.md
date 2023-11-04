@@ -1,20 +1,14 @@
 # Smart2car_test
+🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp)  
 
-Autor: Jordi Rodríguez  
+👨🏻‍💻Práctica de **programación visual con bloques** en Arduino  
+    
+### Software  
+- Programado con [ArduinoBlocks](http://www.arduinoblocks.com/web/)  
+- Este código simplemente realiza un test del hardware instalado
 
-Práctica de programación visual con bloques en Arduino  
-Crearemos un vehículo de 2 ruedas con el material especificado  
-Para la programación usaremos la plataforma ArduinoBlocks:  
 
-http://www.arduinoblocks.com/web/
-
-Este código simplemente realiza un test del hardware instalado
-  
-![Imagen Smart2car acabado](Smart2car_final.jpeg)  
-  
-  
-## Material utilizado
-
+### Hardware  
 - Arduino UNO  
 - Arduino Shield Sensor v.5.0
 - HC-SR04 = Sensor ultrasonido de distancia
@@ -26,28 +20,33 @@ Este código simplemente realiza un test del hardware instalado
 - Buzzer activo + R100Ω  
 - L298N = Controlador de motores
 - Motores Arduino (2x)
-  
 
-## Pines de conexion
+### Montaje  
+![Imagen Smart2car acabado](Smart2car_final.jpeg)  
+Conexiones a pines Arduino UNO:  
 
-A0 = Sensor ultrasonido-Echo (HC-SR04)  
-A1 = Sensor ultrasonido-Trigger (HC-SR04)  
-A2 = Sensor línea izquierda (TCRT5000)  
-A3 = Fotosensor (LM393)  
-A4 = I2C LCD (SDA)  
-A5 = I2C LCD (SCL)  
+    - A00 = Sensor ultrasonido-Echo (HC-SR04)  
+    - A01 = Sensor ultrasonido-Trigger (HC-SR04)  
+    - A02 = Sensor línea izquierda (TCRT5000)  
+    - A03 = Fotosensor (LM393)  
+    - A04 = I2C LCD (SDA)  
+    - A05 = I2C LCD (SCL)  
 
-D0 = (RX)  
-D1 = (TX)  
-D2 = Led blanco derecho  
-D3-= Led rojo derecho  
-D4 = Sensor línea derecha   
-D5-= ENB motor izquierdo  
-D6-= ENA motor derecho  
-D7 = IN1 motor derecho  
-D8 = IN2 motor derecho  
-D9-= IN3 motor izquierdo  
-D10-= IN4 motor izquierdo  
-D11-= Buzzer  
-D12 = Led rojo izquierdo   
-D13 = Led blanco izquierdo  
+    - D00 = (RX)
+    - D01 = (TX)  
+    - D02 = Led blanco derecho  
+    - D03-= Led rojo derecho  
+    - D04 = Sensor línea derecha   
+    - D05-= ENB motor izquierdo  
+    - D06-= ENA motor derecho  
+    - D07 = IN1 motor derecho  
+    - D08 = IN2 motor derecho  
+    - D09-= IN3 motor izquierdo  
+    - D10-= IN4 motor izquierdo  
+    - D11-= Buzzer  
+    - D12 = Led rojo izquierdo   
+    - D13 = Led blanco izquierdo  
+
+### Licencia  
+⚖️Todo el contenido distribuido bajo [licencia GPL-3.0](https://www.gnu.org/licenses/gpl-3.0), salvo indicación expresa.  
+Las referencias y librerías empleadas, estarán sujetas a sus propia licencia, y no se incluyen en este repositorio.  
